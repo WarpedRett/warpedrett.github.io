@@ -1,0 +1,140 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$white:white;
+$mediumGrey: #706F75;
+$medFadeBlue: #2381C1;
+$mediumGrey:#4A4A4A;
+
+// font-family: 'Dosis', sans-serif;
+// font-family: 'Inconsolata', monospace;
+
+
+body {
+  background-color: $white;
+  font-family: 'Inconsolata', monospace;
+}
+
+.navbar {
+  background-image: url('../images/background/stardust.png');
+  background-repeat: repeat;
+  display: none;
+  .navbar-nav .nav-link {
+    color:white !important;
+  }
+}
+
+.shadow {
+  box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.flex-display {
+  display: flex;
+}
+
+.navbar-shadow {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.landingSection {
+  height: 100vh;
+  background-image: url('../images/background/stardust.png');
+  background-repeat: repeat;
+  .logo-size {
+    height: 200px;
+  }
+  color:white;
+  hr {
+    width: 60%;
+    border-top: 7px solid white;
+  }
+}
+
+.about-section {
+  padding-top: 75px;
+  height: 100%;
+  .tech-section {
+    .tech-group {
+      margin-top: 2em;
+      padding-top: 2em;
+      .dev-icons{
+        padding: 1.5rem 3rem;
+        font-size: 70px;
+      }
+      p {
+        color: $mediumGrey;
+      }
+    }
+  }
+}
+
+.projects-section {
+  padding-top: 75px;
+  height: 100%;
+}
+
+@media (min-width: 576px) {
+  .about-section {
+  }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .about-section {
+    padding-top: 0;
+    height: 100vh;
+    .tech-section {
+      .tech-group {
+        margin-top: 2em;
+        padding-top: 2em;
+        .dev-icons{
+          padding: 1.5rem 0rem;
+          font-size: 50px;
+        }
+      }
+    }
+  }
+
+  .projects-section {
+    padding-top: 0;
+    height: 100vh;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .about-section {
+    .tech-section {
+      .tech-group {
+        margin-top: 2em;
+        padding-top: 2em;
+        .dev-icons{
+          padding: 1.5rem 1rem;
+          font-size: 60px;
+        }
+      }
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .about-section {
+    .tech-section {
+      .tech-group {
+        margin-top: 2em;
+        padding-top: 2em;
+        .dev-icons{
+          padding: 1.5rem 3rem;
+          font-size: 60px;
+        }
+      }
+    }
+  }
+}
+
+.teamPage {
+  height: 100vh;
+}
