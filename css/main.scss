@@ -25,14 +25,6 @@ body {
   }
 }
 
-.shadow {
-  box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.flex-display {
-  display: flex;
-}
-
 .navbar-shadow {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
@@ -103,8 +95,6 @@ body {
     height: 100vh;
     .tech-section {
       .tech-group {
-        margin-top: 2em;
-        padding-top: 2em;
         .dev-icons{
           padding: 1.5rem 0rem;
           font-size: 50px;
@@ -112,7 +102,6 @@ body {
       }
     }
   }
-
   .projects-section {
     padding-top: 0;
     height: 100vh;
@@ -129,8 +118,6 @@ body {
   .about-section {
     .tech-section {
       .tech-group {
-        margin-top: 2em;
-        padding-top: 2em;
         .dev-icons{
           padding: 1.5rem 1rem;
           font-size: 60px;
@@ -150,8 +137,6 @@ body {
   .about-section {
     .tech-section {
       .tech-group {
-        margin-top: 2em;
-        padding-top: 2em;
         .dev-icons{
           padding: 1.5rem 3rem;
           font-size: 60px;
@@ -159,8 +144,4 @@ body {
       }
     }
   }
-}
-
-.teamPage {
-  height: 100vh;
 }

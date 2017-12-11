@@ -3,7 +3,7 @@
       $(window).scroll(function(){
         if ($(this).scrollTop() > ($('#about').position().top - 5)) {
           $('#menu').removeClass('slideOutUp');
-          $('#menu').addClass('flex-display slideInDown');
+          $('#menu').addClass('d-flex slideInDown');
         } else {
           $('#menu').addClass('slideOutUp');
           $('#menu').removeClass('slideInDown');
