@@ -30,7 +30,7 @@ body {
 }
 
 .landing-section {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url('../images/background/stardust.png');
   background-repeat: repeat;
   .logo-size {
@@ -48,13 +48,13 @@ body {
 
 .about-section {
   padding-top: 75px;
-  height: 100%;
+  min-height: 100vh;
   .tech-section {
     .tech-group {
       margin-top: 2em;
       padding-top: 2em;
       .dev-icons{
-        padding: 1.5rem 3rem;
+        padding: 1.5rem 2rem;
         font-size: 70px;
       }
       p {
@@ -66,7 +66,7 @@ body {
 
 .projects-section {
   padding-top: 75px;
-  height: 100%;
+  min-height: 100vh;
 }
 
 @media (min-width: 576px) {
@@ -92,7 +92,7 @@ body {
   }
   .about-section {
     padding-top: 0;
-    height: 100vh;
+    //height: 100vh;
     .tech-section {
       .tech-group {
         .dev-icons{
@@ -104,7 +104,7 @@ body {
   }
   .projects-section {
     padding-top: 0;
-    height: 100vh;
+    //height: 100vh;
   }
 }
 
